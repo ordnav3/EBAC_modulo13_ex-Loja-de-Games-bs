@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja de Games</title>
+
+    <link rel="stylesheet" href="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+    <link rel="manifest" href="./fav/site.webmanifest">
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Loja de Games</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre a Loja</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Promoções</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Destaques</a></li>
+
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div id="carousel" class="carousel carousel-fade" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                <div data-bs-inerval="500" class="carousel-item active">
+                    <img class="d-block w-100" src="./imagens/pexels-florenz-mendoza-5489393.jpg">
+                </div>
+                <div data-bs-inerval="500" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/pexels-lucie-liz-3165335.jpg">
+                </div>
+                <div data-bs-inerval="500" class="carousel-item">
+                    <img class="d-block w-100" src="./imagens/pexels-tomasz-filipek-1637438.jpg">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carrosel" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carrosel" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img
+                            src="https://images.pexels.com/photos/14785828/pexels-photo-14785828.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="card-body">
+                            <h4 class="card-title">Oculos VR </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark">Comprar</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img
+                            src="https://images.pexels.com/photos/14005916/pexels-photo-14005916.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="card-body">
+                            <h4 class="card-title">Steam Deck</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark">Comprar</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img
+                            src="https://images.pexels.com/photos/14642111/pexels-photo-14642111.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="card-body">
+                            <h4 class="card-title">Controle de Xbox</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark">Comprar</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img
+                            src="https://images.pexels.com/photos/4225230/pexels-photo-4225230.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="card-body">
+                            <h4 class="card-title">Controle de PS4 </h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark">Comprar</button>
+                        </div>
+                    </article>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <article class="card">
+                        <img
+                            src="https://images.pexels.com/photos/11591876/pexels-photo-11591876.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+                        <div class="card-body">
+                            <h4 class="card-title">Controle de PS5</h4>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn-dark">Comprar</button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023</p>
+    </footer>
+
+
+    <script src="./lib/cdn.jsdelivr.net_npm_bootstrap@5.3.1_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
